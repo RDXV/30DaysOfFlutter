@@ -6,11 +6,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     int days = 30;
-    String name = "Varun";
+    String name = "Codepur ";
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             "Catalog App",
           ),
           centerTitle: true,
@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         body: Center(
           child: Text('Welcome to $days days of flutter by $name'),
         ),
-        drawer: Drawer(),
+        drawer: const Drawer(),
       ),
     );
   }
