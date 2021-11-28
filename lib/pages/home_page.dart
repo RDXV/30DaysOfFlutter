@@ -11,8 +11,10 @@ class HomePage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          // if we want to change the background color to white, the drawer icon goes invisible, for that change iconTheme and make icon's color not white
           title: const Text(
             "Catalog App",
+            style: TextStyle(color: Colors.black),
           ),
           centerTitle: true,
         ),
